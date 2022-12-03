@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mall-mate</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="ma.css">
+</head>
+<body> 
+<header>
+    <a href="#" class="logo"><img src="img/mall-mate-logo.png" alt="">
+    </a>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Offers</a>
+        <a href="#about">About</a>
+        <a href="#menu">Partners</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-moon"></a>
+        <!--<img src="img/dark theme icon/moon.png" id="icon" alt="">-->
+    </div>
+</header>  
+
+<form action="" id="search-form">
+    <input type="search"  placeholder="What I want" name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>  
+
+<!--home-->
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Main services</span>
+                    <h3>Cinema and teather Tickets</h3>
+                    <p>Because they connect the “small” ideas of individual sentences to a “bigger” idea</p>
+                       <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="img/tiket.jpg" alt="">
+                    </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Main services</span>
+                    <h3>Resturants</h3>
+                    <p>Because they connect the “small” ideas of individual sentences to a “bigger” idea</p>
+                       <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="img/2g.jpg" alt="">
+                    </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Main services</span>
+                    <h3>Hotel Rooms</h3>
+                    <p>Because they connect the “small” ideas of individual sentences to a “bigger” idea</p>
+                       <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="img/hot.jpg" alt="">
+                    </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+</section>
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading"> Our Menu</h3>
+    <h1 class="heading"> Special Meals</h1>
+
+    <div class="box-container">
+       <div class="box">
+         <a href="#" class="fas fa-heart"></a>
+         <a href="#" class="fas fa-eye"></a>
+         <img src="img/bed.jpg" alt="">
+          <h3>Room 28</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>250.00 Br</span>
+          <a href="" class="btn">Add to cart</a>
+       </div>
+
+       <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="img/cake1.jpg" alt="">
+         <h3>Cakes</h3>
+         <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>50.00 Br</span>
+         <a href="" class="btn">Add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="img/tbs.jpg" alt="">
+         <h3>Tibis</h3>
+         <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>120.00 Br</span>
+         <a href="" class="btn">Add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="img/man-vs-bee-movie-poster-md.jpg" alt="">
+         <h3>Sunday's Movie</h3>
+         <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>200.00 Br</span>
+         <a href="" class="btn">Add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="img/coffee.jpg" alt="">
+         <h3>Hot Drinks</h3>
+         <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>30.00 Br</span>
+         <a href="" class="btn">Add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="img/will.jpg" alt="">
+         <h3>Movie on Saturday</h3>
+         <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>100.00 Br</span>
+         <a href="" class="btn">Add to cart</a>
+      </div>
+   
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="img/doro.jpg" alt="">
+         <h3>Doro Wot</h3>
+         <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>90.00 Br</span>
+         <a href="" class="btn">Add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="img/bed2.jpg" alt="">
+         <h3>Room 4</h3>
+         <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>700.00 Br</span>
+         <a href="" class="btn">Add to cart</a>
+      </div>
+
+
+    </div>
+    
+</section>
+<section class="about" id="about">
+       
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="img/ab.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>The Online Mall</h3>
+            <p> Lorem ipsum dolor sit amet. Est perferendis ducimus et deserunt quis est modi adipisci sit deleniti obcaecati aut vitae earum eos 
+                commodi nemo. Nam quia voluptas aut natus atque in optio obcaecati ad omnis eveniet eos esse autem nam earum repudiandae? Et reprehenderit 
+                autem eos nulla praesentium sed tenetur quibusdam et voluptatem natus eum consequatur Quis est quia velit sed expedita exercitationem.
+                Et quia eveniet aut asperiores dolores id earum dolorem nam dolor maiores qui nulla iure sed nesciunt voluptatibus et quia nisi. Ad quam 
+                Quis aut voluptas dolorem non amet molestias sed sapiente ullam rem nihil omnis qui numquam nihil et beatae recusandae! Aut sint rerum ab 
+                pariatur cupiditate nam nisi accusamus sit delectus animi ut natus quam et perferendis veniam.</p>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Free Delivery</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>Easy Payments</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 Services</span>
+            </div>
+        </div>
+        <a href="#" class="btn">Learn More</a>
+     </div>
+    </div>
+     
+
+</section>
+ <section class="menu" id="menu">
+  <h3 class="sub-heading"> Our Sepcial Partners </h3>
+  <h1 class="heading"> Today's Rating </h1>
+
+ <div class="box-container">
+  <div class="box">
+    <div class="image">
+    <img src="img/berenda.jpg" alt="">
+    <a href="#" class="fas fa-heart"></a>
+      </div>
+     <div class="content">
+     <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star-half-alt"></i>
+     </div>
+     <h3>Bernda Cafe</h3>
+     <p>Lorem ipsum dolor sit amet. Est perferendis ducimus et deser</p>
+     <a href="" class="btn">Add to cart</a>
+     <span class="price">200.00 Br</span>
+    </div>
+ </div>
+
+ <div class="box">
+  <a href="#" class="fas fa-heart"></a>
+  <div class="image">
+  <img src="img/zeberga.jpg" alt="">
+    </div>
+   <div class="content">
+   <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+   </div>
+   <h3>zeberga Hotel</h3>
+   <p>Lorem ipsum dolor sit amet. Est perferendis ducimus et deser</p>
+   <a href="" class="btn">Add to cart</a>
+   <span class="price">200.00 Br</span>
+  </div>
+</div>
+<div class="box">
+  <div class="image">
+  <img src="img/melkamu.jpg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+    </div>
+   <div class="content">
+   <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+   </div>
+   <h3>Melkamu Cinema</h3>
+   <p>Lorem ipsum dolor sit amet. Est perferendis ducimus et deser</p>
+   <a href="" class="btn">Add to cart</a>
+   <span class="price">200.00 Br</span>
+  </div>
+</div>
+<div class="box">
+  <div class="image">
+  <img src="img/shoyu-ramen_20181227133143.jpg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+    </div>
+   <div class="content">
+   <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+   </div>
+   <h3>Delious Food</h3>
+   <p>Lorem ipsum dolor sit amet. Est perferendis ducimus et deser</p>
+   <a href="" class="btn">Add to cart</a>
+   <span class="price">200.00 Br</span>
+  </div>
+</div>
+<div class="box">
+  <div class="image">
+  <img src="img/cholbe.jpg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+    </div>
+    
+   <div class="content">
+   <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+   </div>
+   <h3>Cholbe Resturant and Cafe</h3>
+   <p>Lorem ipsum dolor sit amet. Est perferendis ducimus et deser</p>
+   <a href="" class="btn">Add to cart</a>
+   <span class="price">200.00 Br</span>
+  </div>
+</div>
+<div class="box">
+  <div class="image">
+  <img src="img/teshe.jpg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+    </div>
+   <div class="content">
+   <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+   </div>
+   <h3>Teshe Cinema</h3>
+   <p>Lorem ipsum dolor sit amet. Est perferendis ducimus et deser</p>
+   <a href="" class="btn">Add to cart</a>
+   <span class="price">200.00 Br</span>
+  </div>
+</div>
+
+</div>
+ </section>
+<script src="script.js"></script>
+
+</body>
+</html>
